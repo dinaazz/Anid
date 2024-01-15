@@ -1,0 +1,34 @@
+:root{  
+    --primaryColor: #00bfff;  
+    --secondaryColor: #77c4dd;  
+    --lightColor: #187ca3;  
+    --bgColor-1: #87cefa;  
+    --bgColor-2: #4169e1;  
+    --padding: 8%  
+}  
+*{   
+    margin: 0;  
+    padding: 0;  
+    box-sizing: border-box;  
+}
+body{
+    background: url(../img/4.jpeg);
+}
+p{
+    align-items: center;
+    margin: 8%;
+    padding: 1%;
+    font-size: 21px;
+    font-weight: 700;
+    color: black;
+    margin: 20px;
+    height: 35px;
+    text-align: center;
+    justify-content: center;
+}
+h1{
+    color: var(--lightColor);  
+    height: 10px;
+    text-align: center;
+    margin: 5%;
+}
